@@ -10,6 +10,7 @@ pageEncoding="UTF-8"%>
   <body>
     <h1>${boardVO.id}번 게시글 조회</h1>
     <div class="grid grid-view-board">
+      <jsp:include page="../member/membermenu.jsp"></jsp:include>
       <label for="subject">제목</label>
       <div>${boardVO.subject}</div>
       <label for="email">이메일</label>

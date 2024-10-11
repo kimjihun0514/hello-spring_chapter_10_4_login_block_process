@@ -31,6 +31,9 @@
 			
 			<div class="btn-group">
 				<div class="right-align">
+	            	<a class="regist" href="/member/regist">회원가입</a>
+	          	</div>
+				<div class="right-align">
 					<input id="btn-regist" type="submit" value="로그인" />
 				</div>
 			</div>
